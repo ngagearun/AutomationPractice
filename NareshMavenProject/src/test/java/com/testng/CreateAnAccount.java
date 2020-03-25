@@ -33,6 +33,9 @@ public class CreateAnAccount extends Reusable{
 		
 		Random num=new Random();
 		 int g_num=num.nextInt(1000);
+		 
+		 
+		 
 		
 		sendkeys((By.name("emailid")), "candiate"+g_num+"@gmail.com");
 		sendkeys((By.name("firstname")), "arun");
