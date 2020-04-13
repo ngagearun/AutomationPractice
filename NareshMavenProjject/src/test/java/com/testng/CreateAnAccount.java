@@ -40,6 +40,9 @@ public class CreateAnAccount extends Reusable{
 		click(By.name("Submit"));
 		String value=readerrormessage(By.id("welcomeDiv"));
 		Assert.assertEquals("Welcome arun  kumar   ", value);
+		
+		
+		
 	}
 	
 	@Test(priority=2,groups="smoke")
