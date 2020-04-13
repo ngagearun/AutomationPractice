@@ -23,6 +23,11 @@ public class DataaProviderTestNG extends Reusable{
 		click(By.name("cal"));
 	}
 	
+	
+	
+	
+	
+	
 	@DataProvider(name="cal")
 	public String[][] inputdata() throws IOException{ 
 		
