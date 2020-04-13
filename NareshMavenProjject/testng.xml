@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="candiatepsiexam">
+ <test name="RegressionTesting">
+ <parameter name="browsername" value="chrome"></parameter>
+ <groups>
+  <run>
+   <include name="smoke"></include>
+  </run>
+ </groups>
+  <classes>
+    <class name="com.testng.CreateAnAccount"></class>
+    <class name="com.testng.RegisterForExamination"></class>  
+  </classes> 
+ </test>
+</suite>
